@@ -1,0 +1,195 @@
+<!-- Created by Rafael Gonzales -->
+
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Student Management Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: left;
+    }
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    form {
+      width: 80%;
+      margin: 20px auto;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    input[type="submit"] {
+      background-color: #333;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type="reset"] {
+      background-color: #ddd;
+      color: black;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Student Management Form</h1>
+  </header>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Student Number</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Phone Number</th>
+        <th>Year of Entry</th>
+        <th>Units Enrolled</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Static Imaginary Data place here -->
+      <tr>
+        <td>1</td>
+        <td>2023001</td>
+        <td>Joseph Gonzaga</td>
+        <td>123 Quezon City</td>
+        <td>555-1234</td>
+        <td>2023</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>2023002</td>
+        <td>John Lloyd Cruz</td>
+        <td>456 Marikina City</td>
+        <td>555-5678</td>
+        <td>2022</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>2023003</td>
+        <td>Michael Jackson</td>
+        <td>789 Caloocan Province</td>
+        <td>555-9876</td>
+        <td>2021</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>2023004</td>
+        <td>Swae Lee</td>
+        <td>101 La union</td>
+        <td>555-4321</td>
+        <td>2023</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>2023005</td>
+        <td>Coco Martin</td>
+        <td>222 Siargao</td>
+        <td>555-8765</td>
+        <td>2022</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>2023006</td>
+        <td>Emily Blunt</td>
+        <td>333 Cedar Rd</td>
+        <td>555-1357</td>
+        <td>2021</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>2023007</td>
+        <td>Alex Rodriguez</td>
+        <td>444 Walnut St</td>
+        <td>555-8642</td>
+        <td>2023</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>2023008</td>
+        <td>Maria Martinez</td>
+        <td>555 Megamall</td>
+        <td>555-7531</td>
+        <td>2022</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>2023009</td>
+        <td>James Brown</td>
+        <td>666 Shangrila</td>
+        <td>555-9870</td>
+        <td>2021</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>2023010</td>
+        <td>Laura Taylor</td>
+        <td>777 MRT</td>
+        <td>555-6543</td>
+        <td>2023</td>
+        <td>4</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <form>
+    <label for="id">ID:</label>
+    <input type="text" id="id" name="id">
+    <label for="studentNumber">Student Number:</label>
+    <input type="text" id="studentNumber" name="studentNumber">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address">
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="text" id="phoneNumber" name="phoneNumber">
+    <label for="yearOfEntry">Year of Entry:</label>
+    <input type="text" id="yearOfEntry" name="yearOfEntry">
+    <label for="unitsEnrolled">Units Enrolled:</label>
+    <input type="text" id="unitsEnrolled" name="unitsEnrolled">
+    <input type="submit" value="Save">
+    <input type="reset" value="Clear">
+  </form>
+</body>
+</html>
